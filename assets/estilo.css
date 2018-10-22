@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/imagens/background.png);
+}
+
+main > p{
+    padding-left: 105px;
+    font-weight: bold;
+    font-size: 39px;
+    margin: -23px;
+}
+
+section > div{
+    border-style: solid;
+    border-width: 3px 0px;
+    border-color: rgb(165, 186, 206);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-bottom: 24px; 
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:hover{
+    color:#c44343;
+    font-weight: bold;
+}
+
+.menu{
+    justify-content: space-between;
+    background-color: rgb(212, 222, 231);
+    position: fixed;
+    left: 0;
+    top: 0%;
+    width: 85em;
+}
+
+.menu li{
+   display: inline;
+   padding-left: 80px;
+   font-family: 'Bree Serif', serif;
+}
+
+main{
+    padding-top: 275px;
+    padding-bottom: 307px;
+    background-image: url('../assets/imagens/main2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Charmonman', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 116, 106); 
+    padding: 19px;     
+}
+
+div > p{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    align-items: baseline;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    background-color: rgb(83, 35, 35);
+    font-family: cursive;
+    padding: 0px 30px;
+}
+
+.contatos > ol li{
+    display: inline;
+    padding: 32px 20px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+.face{
+    width: 30px;
+    padding: 30px;
+
+}
+
